@@ -134,3 +134,34 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# ==========================
+# Custom Git of It Ignore Rules
+# ==========================
+
+# Dump zone and raw logs (private, messy, non-publishable drafts)
+content/dump-zone/
+content/logs/
+
+# Local Hugo build artifacts (can always rebuild!)
+public/
+resources/
+
+# OS clutter (just in case)
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Optional:
+config.toml
+
+# Virtual environments or temp scripts (Python-related)
+.venv/
+__pycache__/
